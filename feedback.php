@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/cafebeamlogo.png" sizes="96x96" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Island+Moments&family=Lora:ital@0;1&family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
+    <title>JALOS MOTORSHOP</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/LOGO.png" height="30"> JALOS MOTORSHOP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" class="active" href="#">Feedback</a>
+                </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+<div class="front">
+      <div class="shadow">
+        <div class="text-center">
+        <img src="img/bgq.jpg" class="img-fluid rounded">
+      </div>
+      </div>        
+      </div>
+
+
+<h2>Feedback</h2>
+<form action="mail.php" method="post">  
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="subject">Subject:</label>
+  <input type="text" id="subject" name="subject" required><br><br>
+
+  <label for="message">Message:</label>
+  <input type="text" id="message" name="message" required><br><br>
+
+  <input type="submit" value="send" name="send">
+</form>
+</body>
+</html>

@@ -1,0 +1,129 @@
+body{
+    font-family: 'Island Moments', cursive;
+    font-family: 'Lora', serif;
+}
+
+.section-padding{
+    padding: 100px 0;
+}
+
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.card-body img{
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    height: 50px;
+}
+
+/*  */
+.carousel-item img {
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    height: 600px;
+}
+
+.carousel-caption-color{
+    color: black;
+}
+
+hr {
+    height: 3px;
+    background: black;
+    margin-bottom: 30px;
+    width: 200px;
+}
+.shadow{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+/* COMMENTS/RATINGS */
+.col-3 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+.col-3 img {
+    width: 100%;
+}
+
+.col-3:hover{
+    transition: 0.5s;
+    transform: translateY(3px);
+
+} 
+
+.ratings .col-3{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.ratings .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.portfolio .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.team .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.services .card-body i {
+	font-size: 50px;
+}
+.team .card-body i {
+	font-size: 20px;
+}
+
+
+
+
+/* Rensponsive CSS */
+@media only screen and (max-width: 700px) {
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        font-size: 10px 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+
+    .front img {
+        object-fit:cover;
+        top: 0;
+        left: 0;
+        height: 600px;
+    }
+
+}

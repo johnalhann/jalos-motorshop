@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JALO'S MOTORSHOP SYSTEM</title>
+    <!-- CONNECTION OF STYLESHEET TO CSS FILE -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/LOGO.jpg" sizes="96x96" type="image/png">
+</head>
+<body>
+
+    <main>
+        <!-- BOX outer layout -->
+        <div class="box">
+            <!-- BOX inner layout -->
+            <div class="inner-box">
+                <!-- FORMS Sign In -->
+                <div class="forms-wrap">
+                    <!-- FORMS ACTION AND METHOD -->
+                    <form action="login.php?op=in" method="post">
+                        <div class="logo">
+                            <h3>JALO'S MOTORSHOP</h3>
+                        </div>
+                        <!-- HEADING, SIGN UP REGISTRATION -->
+                        <div class="heading">
+                            <h2>Welcome</h2>
+                            <h6> Don't have an Account? </h6>
+                            <a href="register.php" class="toggle">Sign up</a>
+                        </div>
+                        <!-- ACTUAL FORM FOR SIGN IN -->
+                        <hr> 
+                        <div class="form">
+                            <!-- ACTUAL FORM Email -->
+                            <div class="input-wrap">
+                            <input 
+                            type="email" 
+                            class="input-field"
+                            minlength="4" 
+                            autocomplete="off"
+                            name="email"
+                            id="email" 
+                            required/>
+                            <label for="email">Email</label>
+                        </div>
+                        <!-- ACTUAL FORM password -->
+                        <div class="input-wrap">
+                            <input 
+                            type="password" 
+                            class="input-field"
+                            minlength="4" 
+                            autocomplete="off"
+                            id="pass" 
+                            name="password"
+                            required/>
+                            <label for="pass">Password</label>
+                        </div>
+                        <input type="submit" value="Sign In" class="sign-btn"/>
+                        <hr>
+                        <p class="text">
+                            Need help signing in?
+                            <a href="#">Get Help</a>
+                        </p>
+                    </div>
+                   
+                    </form>
+                </div>
+
+                
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+
+</body>
+</html>
