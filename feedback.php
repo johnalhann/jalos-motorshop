@@ -33,7 +33,7 @@
                 <a class="nav-link" href="services.html">Services</a>
               </li>
               <li class="nav-item">
-              <a class="nav-link" class="active" href="#">Feedback</a>
+              <a class="nav-link" class="active" href="#">Schedule</a>
                 </li>
               
             </ul>
